@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TiktokGame:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TiktokGame_jar</output-path>
+    <root id="archive" name="TiktokGame.jar">
+      <element id="module-output" name="TiktokGame" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/java-websocket/Java-WebSocket/1.5.4/Java-WebSocket-1.5.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-simple/2.0.7/slf4j-simple-2.0.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/jwdeveloper/TikTok-Live-Java/API/1.0.6-Release/API-1.0.6-Release.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.24.1/protobuf-java-3.24.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/jwdeveloper/TikTok-Live-Java/Client/1.0.6-Release/Client-1.0.6-Release.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

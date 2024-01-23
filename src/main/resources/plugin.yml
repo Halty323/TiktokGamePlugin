@@ -1,0 +1,9 @@
+name: TiktokGamePlugin
+version: '${project.version}'
+main: com.halty.tiktokgame.TiktokGamePlugin
+api-version: '1.20'
+authors: [Halty1]
+description: A simple game
+commands:
+  startgame: {}
+  stopgame: {}
