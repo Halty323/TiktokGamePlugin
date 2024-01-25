@@ -1,0 +1,10 @@
+name: TiktokGamePlugin
+version: '1.0-SNAPSHOT'
+main: com.halty.tiktokgame.TiktokGamePlugin
+api-version: '1.20'
+authors: [Halty1]
+description: A simple game
+commands:
+  startgame: {}
+  stopgame: {}
+  customtnt: {}

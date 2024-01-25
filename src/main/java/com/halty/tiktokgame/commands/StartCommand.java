@@ -11,7 +11,7 @@ public class StartCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender commandSender ,Command command, String s, String[] strings) {
         Player player = (Player) commandSender;
-        GameUtil.startGame(player);
+        GameUtil.startGame(player, strings[0]);
         return true;
     }
 }

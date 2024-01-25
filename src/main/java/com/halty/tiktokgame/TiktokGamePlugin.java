@@ -1,5 +1,6 @@
 package com.halty.tiktokgame;
 
+import com.halty.tiktokgame.commands.CustomTntCommand;
 import com.halty.tiktokgame.commands.StartCommand;
 import com.halty.tiktokgame.commands.StopCommand;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -15,6 +16,7 @@ public final class TiktokGamePlugin extends JavaPlugin {
         saveDefaultConfig();
         Objects.requireNonNull(getCommand("startgame".toLowerCase())).setExecutor(new StartCommand());
         Objects.requireNonNull(getCommand("stopgame".toLowerCase())).setExecutor(new StopCommand());
+        Objects.requireNonNull(getCommand("customtnt".toLowerCase())).setExecutor(new CustomTntCommand());
     }
 
     @Override
